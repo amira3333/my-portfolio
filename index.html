@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amira Ali Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Amira Ali Ali Zainhom</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project details</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="about-container">
+            <img src="my_photo.jpg.jpeg" alt="Amira Ali Profile" class="profile-img">
+            <h1>Hi, I'm Amira Ali Ali Zainhom</h1>
+            <p>I am a professional UI/UX Designer and Web Developer. I specialize in creating aesthetic designs using Figma and Adobe tools, combined with modern AI technologies.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card"><i class="fa-brands fa-figma"></i><h3>Figma</h3><p>UI/UX Design</p></div>
+        <div class="skill-card"><i class="fa-solid fa-robot"></i><h3>AI Tools</h3><p>Creative AI</p></div>
+        <div class="skill-card"><i class="fa-solid fa-palette"></i><h3>Photoshop</h3><p>Photo Editing</p></div>
+        <div class="skill-card"><i class="fa-solid fa-pen-nib"></i><h3>Illustrator</h3><p>Vector Art</p></div>
+        <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML5</h3><p>Web Structure</p></div>
+    </div>
+</section>
+
+    <section id="projects" class="section">
+        <h2>Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card"><h3>E-Commerce UI</h3><p>Complete store design in Figma.</p></div>
+            <div class="project-card"><h3>AI Concept Art</h3><p>Generated art using AI prompts.</p></div>
+            <div class="project-card"><h3>Brand Identity</h3><p>Full logo set in Illustrator.</p></div>
+        </div>
+    </section>
+
+    <section id="recommendations" class="section">
+        <h2>Recommendations</h2>
+        <div id="all_recommendations">
+            <div class="recommendation">"Amira is a brilliant designer with a great eye for detail!" - Sara</div>
+            <div class="recommendation">"Her AI integration skills are top-notch." - Khaled</div>
+            <div class="recommendation">
+            <p><span>&#8220;</span>Her skills in Photoshop and Illustrator made our branding look amazing.<span>&#8221;</span></p>
+            <cite>- John Doe</cite>
+        </div>
+        <div class="add-recommendation">
+            <h3>Leave a Recommendation</h3>
+            <textarea id="new_recommendation" placeholder="Enter your recommendation here..."></textarea>
+            <button onclick="addRecommendation()">Submit</button>
+        </div>
+    </section>
+
+    <a href="#" class="home-icon"><i class="fa-solid fa-house"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
